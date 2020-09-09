@@ -1,0 +1,44 @@
+.Button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.Button:first-of-type {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.Button:disabled {
+    color: #ccc;
+    cursor: not-allowed;
+}
+
+.Success {
+    color: #222324;
+    border: 2px solid #cfcaca ;
+    width: 125px;
+    border-radius: 25px;
+}
+
+.Danger {
+    color: #d3cecc;
+}
+
+.Success:hover {
+    border-color: blueviolet;
+}
+
+.Danger:hover {
+    color: blueviolet;
+    
+}
+
+
+
