@@ -1,7 +1,7 @@
 import * as firebase from 'firebase';
 
 
-
+// firebase config.
 const firebaseConfig = {
   apiKey: "AIzaSyA8mMFWdV6Va_NFc9r4eGTR9xz5bKgzwwc",
   authDomain: "lets-chat-here.firebaseapp.com",
